@@ -6,7 +6,7 @@ import (
 	"log"
 )
 
-const webContent = "labweb.seg.br:v99"
+const webContent = "labweb.seg.br:versão 2021"
 
 func main() {
 	http.HandleFunc("/", helloHandler)
